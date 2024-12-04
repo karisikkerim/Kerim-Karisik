@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Svijet Boksa</title>
+</head>
+
+<body bgcolor="#F4F4F4" text="#222222" marginwidth="0" marginheight="0">
+
+    <header>
+        <table width="100%" bgcolor="#B22222" cellpadding="20">
+            <tr>
+                <td align="center" colspan="4">
+                    <h1>Dobrodošli na <i>Kontakt Stranicu</i> <span style="color: #FFD700;">Svijeta Boksa</span></h1>
+                </td>
+            </tr>
+        </table>
+        <table width="100%" bgcolor="#8B0000" cellpadding="10">
+            <tr>
+                <td align="center" width="25%">
+                    <a href="index.html" style="color: #FFFFFF;">Početna</a>
+                </td>
+                <td align="center" width="25%">
+                    <a href="onama.html" style="color: #FFFFFF;">O nama</a>
+                </td>
+                <td align="center" width="25%">
+                    <a href="galerija.html" style="color: #FFFFFF;">Galerija</a>
+                </td>
+                <td align="center" width="25%">
+                    <a href="kontakt.html" style="color: #FFFFFF;">Kontakt</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <main>
+        <table width="100%" bgcolor="#FFD700" cellpadding="50">
+            <tr>
+                <td align="center">
+                    <h2>Kontakt Forma</h2>
+                    <form method="POST" action="mailto:boks@svijetboksa.com">
+                        <table cellpadding="11" align="center">
+                            <tr>
+                                <td align="center">Vaše Ime:</td>
+                            </tr>
+                            <tr>
+                                <td align="center"><input type="text" name="ime" required></td>
+                            </tr>
+                            <tr>
+                                <td align="center">Email Adresa:</td>
+                            </tr>
+                            <tr>
+                                <td align="center"><input type="email" name="email" required></td>
+                            </tr>
+                            <tr>
+                                <td align="center">Broj Telefona:</td>
+                            </tr>
+                            <tr>
+                                <td align="center"><input type="tel" name="telefon"></td>
+                            </tr>
+                            <tr>
+                                <td align="center">Poruka:</td>
+                            </tr>
+                            <tr>
+                                <td align="center"><textarea name="poruka" rows="4" required></textarea></td>
+                            </tr>
+                            <tr>
+                                <td align="center">Preferirani Način Kontakta:</td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <input type="radio" name="kontakt" value="email" checked>Email
+                                    <input type="radio" name="kontakt" value="telefon">Telefon
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center">
+                                    <button type="submit" style="background-color: #B22222; color: #FFFFFF;">Pošalji</button>
+                                    <button type="reset" style="background-color: #FFD700; color: #222222;">Poništi</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+    </main>
+
+    <footer>
+        <table width="100%" bgcolor="#333333" cellpadding="10">
+            <tr>
+                <td align="center">
+                    <span style="color: #FFD700;">Svijet Boksa</span> © 2024
+                </td>
+            </tr>
+        </table>
+    </footer>
+
+</body>
+
+</html>
